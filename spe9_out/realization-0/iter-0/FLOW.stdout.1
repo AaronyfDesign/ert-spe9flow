@@ -1,0 +1,634 @@
+**********************************************************************
+*                                                                    *
+*                        This is flow 2023.10                        *
+*                                                                    *
+* Flow is a simulator for fully implicit three-phase black-oil flow, *
+*             including solvent and polymer capabilities.            *
+*          For more information, see https://opm-project.org         *
+*                                                                    *
+**********************************************************************
+
+Using 1 MPI processes with 2 OMP threads on each 
+
+Reading deck file 'SPE9.DATA'
+    0 Reading RUNSPEC  in SPE9.DATA line 33
+    1 Reading TITLE    in SPE9.DATA line 35
+    2 Reading DIMENS   in SPE9.DATA line 38
+    3 Reading OIL      in SPE9.DATA line 40
+    4 Reading WATER    in SPE9.DATA line 41
+    5 Reading GAS      in SPE9.DATA line 42
+    6 Reading DISGAS   in SPE9.DATA line 43
+    7 Reading FIELD    in SPE9.DATA line 48
+    8 Reading START    in SPE9.DATA line 50
+    9 Reading WELLDIMS in SPE9.DATA line 53
+   10 Reading TABDIMS  in SPE9.DATA line 63
+   11 Reading EQLDIMS  in SPE9.DATA line 68
+   12 Reading UNIFOUT  in SPE9.DATA line 75
+   13 Reading GRID     in SPE9.DATA line 77
+   14 Reading NOECHO   in SPE9.DATA line 81
+   15 Reading DX       in SPE9.DATA line 82
+   16 Reading DY       in SPE9.DATA line 85
+   17 Reading DZ       in SPE9.DATA line 88
+   18 Reading TOPS     in SPE9.DATA line 108
+   19 Reading PORO     in SPE9.DATA line 761
+   20 Reading PERMX    in SPE9.DATA line 782
+   21 Reading COPY     in SPE9.DATA line 3049
+   22 Reading MULTIPLY in SPE9.DATA line 3053
+   23 Reading ECHO     in SPE9.DATA line 3057
+   24 Reading PROPS    in SPE9.DATA line 3059
+   25 Reading PVTW     in SPE9.DATA line 3061
+   26 Reading ROCK     in SPE9.DATA line 3077
+   27 Reading DENSITY  in SPE9.DATA line 3091
+   28 Reading PVTO     in SPE9.DATA line 3106
+   29 Reading PVDG     in SPE9.DATA line 3134
+   30 Reading SGOF     in SPE9.DATA line 3158
+   31 Reading SWOF     in SPE9.DATA line 3183
+   32 Reading SOLUTION in SPE9.DATA line 3235
+   33 Reading EQUIL    in SPE9.DATA line 3237
+   34 Reading RSVD     in SPE9.DATA line 3259
+   35 Reading SUMMARY  in SPE9.DATA line 3275
+   36 Reading FGOR     in SPE9.DATA line 3278
+   37 Reading FOPR     in SPE9.DATA line 3280
+   38 Reading FGPR     in SPE9.DATA line 3282
+   39 Reading FWPR     in SPE9.DATA line 3284
+   40 Reading BPR      in SPE9.DATA line 3286
+   41 Reading BGSAT    in SPE9.DATA line 3290
+   42 Reading BWSAT    in SPE9.DATA line 3294
+   43 Reading WBHP     in SPE9.DATA line 3305
+   44 Reading WGIR     in SPE9.DATA line 3307
+   45 Reading WGPR     in SPE9.DATA line 3311
+   46 Reading WOIR     in SPE9.DATA line 3315
+   47 Reading WOPR     in SPE9.DATA line 3319
+   48 Reading WWIR     in SPE9.DATA line 3323
+   49 Reading WWPR     in SPE9.DATA line 3327
+   50 Reading SCHEDULE in SPE9.DATA line 3332
+   51 Reading RPTRST   in SPE9.DATA line 3334
+   52 Reading WELSPECS in SPE9.DATA line 3336
+   53 Reading COMPDAT  in SPE9.DATA line 3377
+   54 Reading WCONINJE in SPE9.DATA line 3415
+   55 Reading WCONPROD in SPE9.DATA line 3423
+   56 Reading TSTEP    in SPE9.DATA line 3434
+   57 Reading WCONPROD in SPE9.DATA line 3439
+   58 Reading TSTEP    in SPE9.DATA line 3444
+   59 Reading WCONPROD in SPE9.DATA line 3449
+   60 Reading TSTEP    in SPE9.DATA line 3454
+
+Warning: Unsupported keywords or keyword items:
+
+  NOECHO: keyword not supported
+  In file: SPE9.DATA, line 81
+
+  ECHO: keyword not supported
+  In file: SPE9.DATA, line 3057
+
+Creating grid from keywords DX, DY, DZ and TOPS
+3 fluid phases are active
+
+Processing dynamic information from
+SPE9.DATA line 3332
+Initializing report step 0/90 at 2015-01-01 0 DAYS line 3332
+Processing keyword RPTRST at line 3334
+Processing keyword WELSPECS at line 3336
+Processing keyword COMPDAT at line 3377
+Processing keyword WCONINJE at line 3415
+Processing keyword WCONPROD at line 3423
+Complete report step 1 (10 DAYS) at 2015-01-11 (0 DAYS)
+
+Initializing report step 2/90 at 2015-01-11 (0 DAYS) line 3434
+Complete report step 2 (10 DAYS) at 2015-01-21 (10 DAYS)
+
+Initializing report step 3/90 at 2015-01-21 (10 DAYS) line 3434
+Complete report step 3 (10 DAYS) at 2015-01-31 (20 DAYS)
+
+Initializing report step 4/90 at 2015-01-31 (20 DAYS) line 3434
+Complete report step 4 (10 DAYS) at 2015-02-10 (30 DAYS)
+
+Initializing report step 5/90 at 2015-02-10 (30 DAYS) line 3434
+Complete report step 5 (10 DAYS) at 2015-02-20 (40 DAYS)
+
+Processing grid
+Total number of active cells: 9000 / total pore volume: 518107596 RB
+
+===============Saturation Functions Diagnostics===============
+
+System:  Black-oil system.
+Relative permeability input format: Saturation Family I.
+Number of saturation regions: 1
+
+
+
+================ Starting main simulation loop ===============
+
+
+Report step  0/90 at day 0/900, date = 01-Jan-2015
+Using Newton nonlinear solver.
+
+Starting time step 0, stepsize 1 days, at day 0/10, date = 01-Jan-2015
+    Well INJE1 control mode changed from RATE to BHP
+    Well PRODU26 control mode changed from ORAT to BHP
+ Newton its= 4, linearizations= 5 (0.3sec), linear its= 36 (0.5sec)
+
+Starting time step 1, stepsize 2.6 days, at day 1/10, date = 02-Jan-2015
+    Well PRODU21 control mode changed from ORAT to BHP
+    Well PRODU23 control mode changed from ORAT to BHP
+ Newton its= 3, linearizations= 4 (0.1sec), linear its= 21 (0.4sec)
+
+Starting time step 2, stepsize 6.4 days, at day 3.6/10, date = 04-Jan-2015
+ Newton its= 4, linearizations= 5 (0.2sec), linear its= 32 (0.4sec)
+
+Report step  1/90 at day 10/900, date = 11-Jan-2015
+
+Starting time step 0, stepsize 10 days, at day 10/20, date = 11-Jan-2015
+ Newton its= 4, linearizations= 5 (0.2sec), linear its= 30 (0.3sec)
+
+Report step  2/90 at day 20/900, date = 21-Jan-2015
+
+Starting time step 0, stepsize 10 days, at day 20/30, date = 21-Jan-2015
+ Newton its= 3, linearizations= 4 (0.2sec), linear its= 15 (0.2sec)
+
+Report step  3/90 at day 30/900, date = 31-Jan-2015
+
+Starting time step 0, stepsize 10 days, at day 30/40, date = 31-Jan-2015
+ Newton its= 3, linearizations= 4 (0.2sec), linear its= 16 (0.3sec)
+
+Report step  4/90 at day 40/900, date = 10-Feb-2015
+
+Starting time step 0, stepsize 10 days, at day 40/50, date = 10-Feb-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 10 (0.1sec)
+
+Report step  5/90 at day 50/900, date = 20-Feb-2015
+
+Starting time step 0, stepsize 10 days, at day 50/60, date = 20-Feb-2015
+ Newton its= 2, linearizations= 3 (0.2sec), linear its= 11 (0.1sec)
+
+Report step  6/90 at day 60/900, date = 02-Mar-2015
+
+Starting time step 0, stepsize 10 days, at day 60/70, date = 02-Mar-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.1sec)
+
+Report step  7/90 at day 70/900, date = 12-Mar-2015
+
+Starting time step 0, stepsize 10 days, at day 70/80, date = 12-Mar-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.1sec)
+
+Report step  8/90 at day 80/900, date = 22-Mar-2015
+
+Starting time step 0, stepsize 10 days, at day 80/90, date = 22-Mar-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.2sec)
+
+Report step  9/90 at day 90/900, date = 01-Apr-2015
+
+Starting time step 0, stepsize 10 days, at day 90/100, date = 01-Apr-2015
+    Well PRODU9 control mode changed from ORAT to BHP
+    Well PRODU22 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 10/90 at day 100/900, date = 11-Apr-2015
+
+Starting time step 0, stepsize 10 days, at day 100/110, date = 11-Apr-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.1sec)
+
+Report step 11/90 at day 110/900, date = 21-Apr-2015
+
+Starting time step 0, stepsize 10 days, at day 110/120, date = 21-Apr-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.1sec)
+
+Report step 12/90 at day 120/900, date = 01-May-2015
+
+Starting time step 0, stepsize 10 days, at day 120/130, date = 01-May-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.1sec)
+
+Report step 13/90 at day 130/900, date = 11-May-2015
+
+Starting time step 0, stepsize 10 days, at day 130/140, date = 11-May-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.1sec)
+
+Report step 14/90 at day 140/900, date = 21-May-2015
+
+Starting time step 0, stepsize 10 days, at day 140/150, date = 21-May-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 15/90 at day 150/900, date = 31-May-2015
+
+Starting time step 0, stepsize 10 days, at day 150/160, date = 31-May-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.1sec)
+
+Report step 16/90 at day 160/900, date = 10-Jun-2015
+
+Starting time step 0, stepsize 10 days, at day 160/170, date = 10-Jun-2015
+ Newton its= 2, linearizations= 3 (0.2sec), linear its= 13 (0.2sec)
+
+Report step 17/90 at day 170/900, date = 20-Jun-2015
+
+Starting time step 0, stepsize 10 days, at day 170/180, date = 20-Jun-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 18/90 at day 180/900, date = 30-Jun-2015
+
+Starting time step 0, stepsize 10 days, at day 180/190, date = 30-Jun-2015
+    Well PRODU16 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.2sec)
+
+Report step 19/90 at day 190/900, date = 10-Jul-2015
+
+Starting time step 0, stepsize 10 days, at day 190/200, date = 10-Jul-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 20/90 at day 200/900, date = 20-Jul-2015
+
+Starting time step 0, stepsize 10 days, at day 200/210, date = 20-Jul-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 21/90 at day 210/900, date = 30-Jul-2015
+
+Starting time step 0, stepsize 10 days, at day 210/220, date = 30-Jul-2015
+    Well PRODU12 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 22/90 at day 220/900, date = 09-Aug-2015
+
+Starting time step 0, stepsize 10 days, at day 220/230, date = 09-Aug-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 23/90 at day 230/900, date = 19-Aug-2015
+
+Starting time step 0, stepsize 10 days, at day 230/240, date = 19-Aug-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 24/90 at day 240/900, date = 29-Aug-2015
+
+Starting time step 0, stepsize 10 days, at day 240/250, date = 29-Aug-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.1sec)
+
+Report step 25/90 at day 250/900, date = 08-Sep-2015
+
+Starting time step 0, stepsize 10 days, at day 250/260, date = 08-Sep-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.2sec)
+
+Report step 26/90 at day 260/900, date = 18-Sep-2015
+
+Starting time step 0, stepsize 10 days, at day 260/270, date = 18-Sep-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 27/90 at day 270/900, date = 28-Sep-2015
+
+Starting time step 0, stepsize 10 days, at day 270/280, date = 28-Sep-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.2sec)
+
+Report step 28/90 at day 280/900, date = 08-Oct-2015
+
+Starting time step 0, stepsize 10 days, at day 280/290, date = 08-Oct-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 15 (0.2sec)
+
+Report step 29/90 at day 290/900, date = 18-Oct-2015
+
+Starting time step 0, stepsize 10 days, at day 290/300, date = 18-Oct-2015
+    Well PRODU11 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 30/90 at day 300/900, date = 28-Oct-2015
+
+Starting time step 0, stepsize 10 days, at day 300/310, date = 28-Oct-2015
+ Newton its= 5, linearizations= 6 (0.3sec), linear its= 26 (0.4sec)
+
+Report step 31/90 at day 310/900, date = 07-Nov-2015
+
+Starting time step 0, stepsize 10 days, at day 310/320, date = 07-Nov-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 32/90 at day 320/900, date = 17-Nov-2015
+
+Starting time step 0, stepsize 10 days, at day 320/330, date = 17-Nov-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 16 (0.2sec)
+
+Report step 33/90 at day 330/900, date = 27-Nov-2015
+
+Starting time step 0, stepsize 10 days, at day 330/340, date = 27-Nov-2015
+ Newton its= 2, linearizations= 3 (0.2sec), linear its= 14 (0.2sec)
+
+Report step 34/90 at day 340/900, date = 07-Dec-2015
+
+Starting time step 0, stepsize 10 days, at day 340/350, date = 07-Dec-2015
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.1sec)
+
+Report step 35/90 at day 350/900, date = 17-Dec-2015
+
+Starting time step 0, stepsize 10 days, at day 350/360, date = 17-Dec-2015
+ Newton its= 2, linearizations= 3 (0.2sec), linear its= 15 (0.2sec)
+
+Report step 36/90 at day 360/900, date = 27-Dec-2015
+
+Starting time step 0, stepsize 10 days, at day 360/370, date = 27-Dec-2015
+    Well PRODU9 control mode changed from ORAT to BHP
+    Well PRODU21 control mode changed from ORAT to BHP
+    Well PRODU23 control mode changed from ORAT to BHP
+    Well PRODU26 control mode changed from ORAT to BHP
+ Newton its= 7, linearizations= 8 (0.3sec), linear its= 26 (0.5sec)
+
+Report step 37/90 at day 370/900, date = 06-Jan-2016
+
+Starting time step 0, stepsize 10 days, at day 370/380, date = 06-Jan-2016
+Restart file written for report step 37/90, date = 06-Jan-2016 00:00:00
+    Oscillating behavior detected: Relaxation set to 0.900000
+    Well PRODU12 control mode changed from ORAT to BHP
+    Well PRODU16 control mode changed from ORAT to BHP
+    Well PRODU22 control mode changed from ORAT to BHP
+ Newton its= 5, linearizations= 6 (0.2sec), linear its= 22 (0.2sec)
+
+Report step 38/90 at day 380/900, date = 16-Jan-2016
+
+Starting time step 0, stepsize 10 days, at day 380/390, date = 16-Jan-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 39/90 at day 390/900, date = 26-Jan-2016
+
+Starting time step 0, stepsize 10 days, at day 390/400, date = 26-Jan-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 15 (0.3sec)
+
+Report step 40/90 at day 400/900, date = 05-Feb-2016
+
+Starting time step 0, stepsize 10 days, at day 400/410, date = 05-Feb-2016
+ Newton its= 4, linearizations= 5 (0.2sec), linear its=  8 (0.2sec)
+
+Report step 41/90 at day 410/900, date = 15-Feb-2016
+
+Starting time step 0, stepsize 10 days, at day 410/420, date = 15-Feb-2016
+    Well PRODU11 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 42/90 at day 420/900, date = 25-Feb-2016
+
+Starting time step 0, stepsize 10 days, at day 420/430, date = 25-Feb-2016
+    Well PRODU6 control mode changed from ORAT to BHP
+ Newton its= 3, linearizations= 4 (0.2sec), linear its= 15 (0.2sec)
+
+Report step 43/90 at day 430/900, date = 06-Mar-2016
+
+Starting time step 0, stepsize 10 days, at day 430/440, date = 06-Mar-2016
+ Newton its= 3, linearizations= 4 (0.2sec), linear its= 13 (0.2sec)
+
+Report step 44/90 at day 440/900, date = 16-Mar-2016
+
+Starting time step 0, stepsize 10 days, at day 440/450, date = 16-Mar-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.1sec)
+
+Report step 45/90 at day 450/900, date = 26-Mar-2016
+
+Starting time step 0, stepsize 10 days, at day 450/460, date = 26-Mar-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.1sec)
+
+Report step 46/90 at day 460/900, date = 05-Apr-2016
+
+Starting time step 0, stepsize 10 days, at day 460/470, date = 05-Apr-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.2sec)
+
+Report step 47/90 at day 470/900, date = 15-Apr-2016
+
+Starting time step 0, stepsize 10 days, at day 470/480, date = 15-Apr-2016
+    Well PRODU17 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 48/90 at day 480/900, date = 25-Apr-2016
+
+Starting time step 0, stepsize 10 days, at day 480/490, date = 25-Apr-2016
+ Newton its= 3, linearizations= 4 (0.2sec), linear its= 14 (0.2sec)
+
+Report step 49/90 at day 490/900, date = 05-May-2016
+
+Starting time step 0, stepsize 10 days, at day 490/500, date = 05-May-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 50/90 at day 500/900, date = 15-May-2016
+
+Starting time step 0, stepsize 10 days, at day 500/510, date = 15-May-2016
+    Well PRODU19 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.2sec), linear its= 12 (0.2sec)
+
+Report step 51/90 at day 510/900, date = 25-May-2016
+
+Starting time step 0, stepsize 10 days, at day 510/520, date = 25-May-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 15 (0.2sec)
+
+Report step 52/90 at day 520/900, date = 04-Jun-2016
+
+Starting time step 0, stepsize 10 days, at day 520/530, date = 04-Jun-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 53/90 at day 530/900, date = 14-Jun-2016
+
+Starting time step 0, stepsize 10 days, at day 530/540, date = 14-Jun-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.1sec)
+
+Report step 54/90 at day 540/900, date = 24-Jun-2016
+
+Starting time step 0, stepsize 10 days, at day 540/550, date = 24-Jun-2016
+    Well PRODU3 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.2sec)
+
+Report step 55/90 at day 550/900, date = 04-Jul-2016
+
+Starting time step 0, stepsize 10 days, at day 550/560, date = 04-Jul-2016
+    Well PRODU2 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 56/90 at day 560/900, date = 14-Jul-2016
+
+Starting time step 0, stepsize 10 days, at day 560/570, date = 14-Jul-2016
+    Well PRODU25 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.1sec)
+
+Report step 57/90 at day 570/900, date = 24-Jul-2016
+
+Starting time step 0, stepsize 10 days, at day 570/580, date = 24-Jul-2016
+    Well PRODU5 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.1sec)
+
+Report step 58/90 at day 580/900, date = 03-Aug-2016
+
+Starting time step 0, stepsize 10 days, at day 580/590, date = 03-Aug-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 15 (0.2sec)
+
+Report step 59/90 at day 590/900, date = 13-Aug-2016
+
+Starting time step 0, stepsize 10 days, at day 590/600, date = 13-Aug-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.1sec)
+
+Report step 60/90 at day 600/900, date = 23-Aug-2016
+
+Starting time step 0, stepsize 10 days, at day 600/610, date = 23-Aug-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.1sec)
+
+Report step 61/90 at day 610/900, date = 02-Sep-2016
+
+Starting time step 0, stepsize 10 days, at day 610/620, date = 02-Sep-2016
+    Well PRODU24 control mode changed from ORAT to BHP
+ Newton its= 3, linearizations= 4 (0.2sec), linear its= 17 (0.2sec)
+
+Report step 62/90 at day 620/900, date = 12-Sep-2016
+
+Starting time step 0, stepsize 10 days, at day 620/630, date = 12-Sep-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 14 (0.2sec)
+
+Report step 63/90 at day 630/900, date = 22-Sep-2016
+
+Starting time step 0, stepsize 10 days, at day 630/640, date = 22-Sep-2016
+ Newton its= 2, linearizations= 3 (0.2sec), linear its= 15 (0.1sec)
+
+Report step 64/90 at day 640/900, date = 02-Oct-2016
+
+Starting time step 0, stepsize 10 days, at day 640/650, date = 02-Oct-2016
+    Well PRODU18 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 65/90 at day 650/900, date = 12-Oct-2016
+
+Starting time step 0, stepsize 10 days, at day 650/660, date = 12-Oct-2016
+    Well PRODU20 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.2sec)
+
+Report step 66/90 at day 660/900, date = 22-Oct-2016
+
+Starting time step 0, stepsize 10 days, at day 660/670, date = 22-Oct-2016
+    Well PRODU4 control mode changed from ORAT to BHP
+ Newton its= 3, linearizations= 4 (0.2sec), linear its= 15 (0.1sec)
+
+Report step 67/90 at day 670/900, date = 01-Nov-2016
+
+Starting time step 0, stepsize 10 days, at day 670/680, date = 01-Nov-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.1sec)
+
+Report step 68/90 at day 680/900, date = 11-Nov-2016
+
+Starting time step 0, stepsize 10 days, at day 680/690, date = 11-Nov-2016
+    Well PRODU15 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.2sec)
+
+Report step 69/90 at day 690/900, date = 21-Nov-2016
+
+Starting time step 0, stepsize 10 days, at day 690/700, date = 21-Nov-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.2sec)
+
+Report step 70/90 at day 700/900, date = 01-Dec-2016
+
+Starting time step 0, stepsize 10 days, at day 700/710, date = 01-Dec-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.1sec)
+
+Report step 71/90 at day 710/900, date = 11-Dec-2016
+
+Starting time step 0, stepsize 10 days, at day 710/720, date = 11-Dec-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 72/90 at day 720/900, date = 21-Dec-2016
+
+Starting time step 0, stepsize 10 days, at day 720/730, date = 21-Dec-2016
+    Well PRODU10 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its=  9 (0.1sec)
+
+Report step 73/90 at day 730/900, date = 31-Dec-2016
+
+Starting time step 0, stepsize 10 days, at day 730/740, date = 31-Dec-2016
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.2sec)
+
+Report step 74/90 at day 740/900, date = 10-Jan-2017
+
+Starting time step 0, stepsize 10 days, at day 740/750, date = 10-Jan-2017
+Restart file written for report step 74/90, date = 10-Jan-2017 00:00:00
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 75/90 at day 750/900, date = 20-Jan-2017
+
+Starting time step 0, stepsize 10 days, at day 750/760, date = 20-Jan-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 76/90 at day 760/900, date = 30-Jan-2017
+
+Starting time step 0, stepsize 10 days, at day 760/770, date = 30-Jan-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.2sec)
+
+Report step 77/90 at day 770/900, date = 09-Feb-2017
+
+Starting time step 0, stepsize 10 days, at day 770/780, date = 09-Feb-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.1sec)
+
+Report step 78/90 at day 780/900, date = 19-Feb-2017
+
+Starting time step 0, stepsize 10 days, at day 780/790, date = 19-Feb-2017
+    Well PRODU13 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.1sec)
+
+Report step 79/90 at day 790/900, date = 01-Mar-2017
+
+Starting time step 0, stepsize 10 days, at day 790/800, date = 01-Mar-2017
+    Well PRODU8 control mode changed from ORAT to BHP
+ Newton its= 3, linearizations= 4 (0.1sec), linear its= 14 (0.1sec)
+
+Report step 80/90 at day 800/900, date = 11-Mar-2017
+
+Starting time step 0, stepsize 10 days, at day 800/810, date = 11-Mar-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.1sec)
+
+Report step 81/90 at day 810/900, date = 21-Mar-2017
+
+Starting time step 0, stepsize 10 days, at day 810/820, date = 21-Mar-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.1sec)
+
+Report step 82/90 at day 820/900, date = 31-Mar-2017
+
+Starting time step 0, stepsize 10 days, at day 820/830, date = 31-Mar-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+Report step 83/90 at day 830/900, date = 10-Apr-2017
+
+Starting time step 0, stepsize 10 days, at day 830/840, date = 10-Apr-2017
+    Well PRODU7 control mode changed from ORAT to BHP
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 11 (0.1sec)
+
+Report step 84/90 at day 840/900, date = 20-Apr-2017
+
+Starting time step 0, stepsize 10 days, at day 840/850, date = 20-Apr-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.1sec)
+
+Report step 85/90 at day 850/900, date = 30-Apr-2017
+
+Starting time step 0, stepsize 10 days, at day 850/860, date = 30-Apr-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.1sec)
+
+Report step 86/90 at day 860/900, date = 10-May-2017
+
+Starting time step 0, stepsize 10 days, at day 860/870, date = 10-May-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 13 (0.1sec)
+
+Report step 87/90 at day 870/900, date = 20-May-2017
+
+Starting time step 0, stepsize 10 days, at day 870/880, date = 20-May-2017
+ Newton its= 2, linearizations= 3 (0.2sec), linear its= 12 (0.2sec)
+
+Report step 88/90 at day 880/900, date = 30-May-2017
+
+Starting time step 0, stepsize 10 days, at day 880/890, date = 30-May-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.1sec)
+
+Report step 89/90 at day 890/900, date = 09-Jun-2017
+
+Starting time step 0, stepsize 10 days, at day 890/900, date = 09-Jun-2017
+ Newton its= 2, linearizations= 3 (0.1sec), linear its= 12 (0.2sec)
+
+
+================    End of simulation     ===============
+
+Number of MPI processes:         1
+Threads per MPI process:         2
+Number of timesteps:            92
+Total time (seconds):           55.59 
+Solver time (seconds):          54.77 
+ Assembly time (seconds):       12.70 (Failed: 0.0; 0.0%)
+   Well assembly (seconds):      0.75 (Failed: 0.0; 0.0%)
+ Linear solve time (seconds):   16.81 (Failed: 0.0; 0.0%)
+   Linear setup (seconds):       3.06 (Failed: 0.0; 0.0%)
+ Update time (seconds):         17.72 (Failed: 0.0; 0.0%)
+ Pre/post step (seconds):        6.43 (Failed: 0.0; 0.0%)
+ Output write time (seconds):    1.19
+Overall Linearizations:        304    (Failed:   0; 0.0%)
+Overall Newton Iterations:     212    (Failed:   0; 0.0%)
+Overall Linear Iterations:    1286    (Failed:   0; 0.0%)
+
