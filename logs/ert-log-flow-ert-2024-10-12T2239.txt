@@ -1,0 +1,40 @@
+2024-10-12 22:39:25,441 - root - MainThread - DEBUG - ERT Plugin manager:
+	ert.shared.hook_implementations
+		<HookCaller 'help_links'>
+		<HookCaller 'installable_jobs'>
+		<HookCaller 'installable_workflow_jobs'>
+		<HookCaller 'job_documentation'>
+		<HookCaller 'legacy_ertscript_workflow'>
+		<HookCaller 'site_config_lines'>
+
+2024-10-12 22:39:25,441 - root - MainThread - DEBUG - Creating temporary directory for site-config
+2024-10-12 22:39:25,442 - root - MainThread - DEBUG - Temporary directory created: /tmp/tmpxgn53ygg
+2024-10-12 22:39:25,442 - root - MainThread - DEBUG - Got no ecl100 config path from any plugins
+2024-10-12 22:39:25,442 - root - MainThread - DEBUG - Got no ecl300 config path from any plugins
+2024-10-12 22:39:25,442 - root - MainThread - DEBUG - Got no flow config path from any plugins
+2024-10-12 22:39:25,442 - root - MainThread - DEBUG - Got no rms config path from any plugins
+2024-10-12 22:39:25,447 - root - MainThread - DEBUG - Creating temporary site-config
+2024-10-12 22:39:25,447 - root - MainThread - DEBUG - Temporary site-config created: /tmp/tmpxgn53ygg/site-config
+2024-10-12 22:39:25,448 - root - MainThread - DEBUG - Setting environment variable ERT_SITE_CONFIG=/tmp/tmpxgn53ygg/site-config
+2024-10-12 22:39:25,448 - ert.__main__ - MainThread - INFO - Running ert with Namespace(config='flow.ert', feature_scheduler=None, func=<function run_gui_wrapper at 0x7f5ee9fd05e0>, logdir='./logs', mode='gui', read_only=False, verbose=False)
+2024-10-12 22:39:26,201 - ert.config.ert_config - MainThread - INFO - Content of the configuration file (flow.ert):
+QUEUE_SYSTEM LOCAL
+QUEUE_OPTION LOCAL MAX_RUNNING 4
+RUNPATH spe9_out/realization-<IENS>/iter-<ITER>
+NUM_REALIZATIONS 12
+ECLBASE SPE9
+REFCASE <CONFIG_PATH>/resources/refcase/SPE9
+SUMMARY FGOR FOPR FGPR FWPR
+OBS_CONFIG obs.txt
+GEN_KW FIELD_PROPERTIES field_properties_priors
+
+2024-10-12 22:39:26,201 - ert.config.ert_config - MainThread - INFO - Content of the config_dict: {'DEFINE': [['<CONFIG_PATH>', '/home/aaronyf/download/ert/ert-spe9flow'], ['<CONFIG_FILE_BASE>', 'flow'], ['<DATE>', '2024-10-12'], ['<CWD>', '/home/aaronyf/download/ert/ert-spe9flow'], ['<CONFIG_FILE>', 'flow.ert']], 'JOB_SCRIPT': 'job_dispatch.py', 'QUEUE_SYSTEM': <QueueSystem.LOCAL: 'LOCAL'>, 'QUEUE_OPTION': [[<QueueSystem.LOCAL: 'LOCAL'>, 'MAX_RUNNING', '1'], [<QueueSystem.LOCAL: 'LOCAL'>, 'MAX_RUNNING', '4']], 'INSTALL_JOB': [['delete_file', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/delete_file'], ['careful_copy_file', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/careful_copy_file'], ['delete_directory', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/delete_directory'], ['copy_file', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/copy_file'], ['copy_directory', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/copy_directory'], ['make_symlink', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/make_symlink'], ['symlink', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/symlink'], ['move_file', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/move_file'], ['make_directory', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/shell/make_directory'], ['eclipse300', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/res/eclipse300'], ['flow', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/res/flow'], ['eclipse100', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/res/eclipse100'], ['rms', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/res/rms'], ['template_render', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/templating/template_render'], ['MAKE_DIRECTORY', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/MAKE_DIRECTORY'], ['MAKE_SYMLINK', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/MAKE_SYMLINK'], ['MOVE_FILE', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/MOVE_FILE'], ['ECLIPSE300', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/ECLIPSE300'], ['DELETE_FILE', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/DELETE_FILE'], ['SYMLINK', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/SYMLINK'], ['ECLIPSE100', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/ECLIPSE100'], ['COPY_FILE', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/COPY_FILE'], ['FLOW', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/FLOW'], ['TEMPLATE_RENDER', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/TEMPLATE_RENDER'], ['DELETE_DIRECTORY', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/DELETE_DIRECTORY'], ['COPY_DIRECTORY', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/COPY_DIRECTORY'], ['RMS', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/RMS'], ['CAREFUL_COPY_FILE', '/usr/local/lib/python3.8/dist-packages/ert/shared/share/ert/forward-models/old_style/CAREFUL_COPY_FILE']], 'RUNPATH': '/home/aaronyf/download/ert/ert-spe9flow/spe9_out/realization-<IENS>/iter-<ITER>', 'NUM_REALIZATIONS': 12, 'ECLBASE': 'SPE9', 'REFCASE': '/home/aaronyf/download/ert/ert-spe9flow/resources/refcase/SPE9', 'SUMMARY': [['FGOR', 'FOPR', 'FGPR', 'FWPR']], 'OBS_CONFIG': '/home/aaronyf/download/ert/ert-spe9flow/obs.txt', 'GEN_KW': [['FIELD_PROPERTIES', '/home/aaronyf/download/ert/ert-spe9flow/field_properties_priors']]}
+2024-10-12 22:39:26,206 - ert.config.ensemble_config - MainThread - INFO - Adding GenKwConfig config (of size 1) to parameter_configs
+2024-10-12 22:39:26,334 - ert.gui.main - MainThread - INFO - Config contains forward model step TEMPLATE_RENDER
+2024-10-12 22:39:26,334 - ert.gui.main - MainThread - INFO - Config contains forward model step FLOW
+2024-10-12 22:39:26,391 - ert.shared.exporter - MainThread - ERROR - Export not available because CSV_EXPORT2 is not installed.
+2024-10-12 22:39:31,263 - ert.gui.tools.plot.plot_window - MainThread - INFO - PlotWindow __init__
+2024-10-12 22:39:32,932 - ert.gui.tools.plot.plot_window - MainThread - INFO - PlotWindow __init__ done. time=1.668502240999942
+2024-10-12 22:39:39,407 - root - MainThread - DEBUG - Resetting environment variable ERT_SITE_CONFIG
+2024-10-12 22:39:39,408 - root - MainThread - DEBUG - Deleting temporary directory for site-config
+2024-10-12 22:39:39,408 - root - MainThread - INFO - Peak memory use: 377532 kB

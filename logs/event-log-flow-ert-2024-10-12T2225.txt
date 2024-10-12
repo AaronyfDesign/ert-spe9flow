@@ -1,0 +1,33 @@
+2024-10-12 22:26:42,429 - ert.event_log - ert_gui_simulation_thread - DEBUG - connecting to new monitor...
+2024-10-12 22:26:42,539 - ert.event_log - ert_gui_simulation_thread - DEBUG - connected
+2024-10-12 22:30:03,781 - ert.event_log - ert_gui_simulation_thread - DEBUG - observed evaluation stopped event, signal done
+2024-10-12 22:30:05,809 - ert.event_log - ert_gui_simulation_thread - DEBUG - got terminator event
+2024-10-12 22:30:05,854 - ert.event_log - ert_gui_simulation_thread - DEBUG - observed that model was finished, waiting tasks completion...
+2024-10-12 22:30:05,855 - ert.event_log - ert_gui_simulation_thread - DEBUG - tasks complete
+2024-10-12 22:30:05,856 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment ran on QUEUESYSTEM: LOCAL
+2024-10-12 22:30:05,856 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment ran with number of realizations: 1
+2024-10-12 22:30:05,856 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run ended with number of realizations succeeding: 1
+2024-10-12 22:30:05,856 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run ended with number of realizations failing: 0
+2024-10-12 22:30:05,856 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run finished in: 209.8565764427185s
+2024-10-12 22:31:30,440 - ert.event_log - ert_gui_simulation_thread - DEBUG - connecting to new monitor...
+2024-10-12 22:31:30,552 - ert.event_log - ert_gui_simulation_thread - DEBUG - connected
+2024-10-12 22:34:36,199 - ert.event_log - ert_gui_simulation_thread - DEBUG - observed evaluation stopped event, signal done
+2024-10-12 22:34:36,213 - ert.event_log - ert_gui_simulation_thread - DEBUG - got terminator event
+2024-10-12 22:34:36,259 - ert.event_log - ert_gui_simulation_thread - DEBUG - observed that model was finished, waiting tasks completion...
+2024-10-12 22:34:36,259 - ert.event_log - ert_gui_simulation_thread - DEBUG - tasks complete
+2024-10-12 22:34:36,260 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment ran on QUEUESYSTEM: LOCAL
+2024-10-12 22:34:36,261 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment ran with number of realizations: 12
+2024-10-12 22:34:36,261 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run ended with number of realizations succeeding: 12
+2024-10-12 22:34:36,261 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run ended with number of realizations failing: 0
+2024-10-12 22:34:36,261 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run finished in: 187.2614130973816s
+2024-10-12 22:34:41,861 - ert.event_log - ert_gui_simulation_thread - DEBUG - connecting to new monitor...
+2024-10-12 22:34:41,968 - ert.event_log - ert_gui_simulation_thread - DEBUG - connected
+2024-10-12 22:38:24,451 - ert.event_log - ert_gui_simulation_thread - DEBUG - observed evaluation stopped event, signal done
+2024-10-12 22:38:26,470 - ert.event_log - ert_gui_simulation_thread - DEBUG - got terminator event
+2024-10-12 22:38:26,515 - ert.event_log - ert_gui_simulation_thread - DEBUG - observed that model was finished, waiting tasks completion...
+2024-10-12 22:38:26,515 - ert.event_log - ert_gui_simulation_thread - DEBUG - tasks complete
+2024-10-12 22:38:26,517 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment ran on QUEUESYSTEM: LOCAL
+2024-10-12 22:38:26,517 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment ran with number of realizations: 12
+2024-10-12 22:38:26,517 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run ended with number of realizations succeeding: 12
+2024-10-12 22:38:26,517 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run ended with number of realizations failing: 0
+2024-10-12 22:38:26,517 - ert.event_log - ert_gui_simulation_thread - INFO - Experiment run finished in: 417.517760515213s

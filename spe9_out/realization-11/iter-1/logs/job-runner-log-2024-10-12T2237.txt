@@ -1,0 +1,74 @@
+2024-10-12 22:37:12,169 - _ert_forward_model_runner.reporting.statemachine - DEBUG - Initializing state machines
+2024-10-12 22:37:12,169 - _ert_forward_model_runner.cli - INFO - Job status: Init
+2024-10-12 22:37:12,169 - _ert_forward_model_runner.reporting.file - DEBUG - Init Message Instance
+2024-10-12 22:37:12,169 - _ert_forward_model_runner.reporting.file - DEBUG - Deleting old status files
+2024-10-12 22:37:12,170 - _ert_forward_model_runner.reporting.event - DEBUG - Publishing event.
+2024-10-12 22:37:12,170 - _ert_forward_model_runner.cli - INFO - Job status: Start
+2024-10-12 22:37:12,170 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:12,170 - _ert_forward_model_runner.reporting.file - DEBUG - Job TEMPLATE_RENDER was successfully started
+2024-10-12 22:37:12,170 - _ert_forward_model_runner.reporting.file - INFO - Append TEMPLATE_RENDER job starting timestamp 22:37:12 to STATUS_file.
+2024-10-12 22:37:12,213 - _ert_forward_model_runner.reporting.event - DEBUG - Job TEMPLATE_RENDER was successfully started
+2024-10-12 22:37:12,213 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.start" for delivery
+2024-10-12 22:37:12,237 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:37:12,238 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:12,449 - _ert_forward_model_runner.reporting.event - DEBUG - TEMPLATE_RENDER job is running
+2024-10-12 22:37:12,450 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:37:12,450 - _ert_forward_model_runner.cli - INFO - Job status: Exited
+2024-10-12 22:37:12,450 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:12,451 - _ert_forward_model_runner.reporting.file - DEBUG - Job TEMPLATE_RENDER exited successfully
+2024-10-12 22:37:12,556 - _ert_forward_model_runner.reporting.event - DEBUG - Job TEMPLATE_RENDER exited successfully
+2024-10-12 22:37:12,559 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.success" for delivery
+2024-10-12 22:37:12,559 - _ert_forward_model_runner.cli - INFO - Job status: Start
+2024-10-12 22:37:12,560 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:12,561 - _ert_forward_model_runner.reporting.file - DEBUG - Job FLOW was successfully started
+2024-10-12 22:37:12,561 - _ert_forward_model_runner.reporting.file - INFO - Append FLOW job starting timestamp 22:37:12 to STATUS_file.
+2024-10-12 22:37:12,594 - _ert_forward_model_runner.reporting.event - DEBUG - Job FLOW was successfully started
+2024-10-12 22:37:12,594 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.start" for delivery
+2024-10-12 22:37:12,651 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:37:12,653 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:12,666 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:37:12,666 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:37:17,735 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:37:17,741 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:17,746 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:37:17,746 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:37:22,844 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:37:22,844 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:22,844 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:37:22,844 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:37:27,939 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:37:27,942 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:27,943 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:37:27,943 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:37:33,011 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:37:33,014 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:33,020 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:37:33,020 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:37:38,121 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:37:38,126 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:38,126 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:37:38,126 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:37:43,237 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:37:43,237 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:37:43,248 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:37:43,248 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:37:48,298 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:38:04,953 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:38:04,953 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:38:04,954 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:38:10,063 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:38:10,070 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:38:11,719 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:38:11,721 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:38:16,768 - _ert_forward_model_runner.cli - INFO - Job status: Running
+2024-10-12 22:38:17,935 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:38:18,619 - _ert_forward_model_runner.reporting.event - DEBUG - FLOW job is running
+2024-10-12 22:38:18,619 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.running" for delivery
+2024-10-12 22:38:18,769 - _ert_forward_model_runner.cli - INFO - Job status: Exited
+2024-10-12 22:38:18,769 - _ert_forward_model_runner.reporting.file - DEBUG - Adding message job to status dictionary.
+2024-10-12 22:38:18,769 - _ert_forward_model_runner.reporting.file - DEBUG - Job FLOW exited successfully
+2024-10-12 22:38:23,332 - _ert_forward_model_runner.reporting.event - DEBUG - Job FLOW exited successfully
+2024-10-12 22:38:23,332 - _ert_forward_model_runner.reporting.event - DEBUG - Schedule <class 'cloudevents.http.event.CloudEvent'> "com.equinor.ert.forward_model_job.success" for delivery
+2024-10-12 22:38:23,332 - _ert_forward_model_runner.cli - INFO - Job status: Finish
+2024-10-12 22:38:23,332 - _ert_forward_model_runner.reporting.file - DEBUG - Runner finished
+2024-10-12 22:38:23,332 - _ert_forward_model_runner.reporting.file - DEBUG - Runner finished successfully

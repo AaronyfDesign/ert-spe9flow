@@ -1,0 +1,95 @@
+2024-10-12 22:26:41,888 - websockets.server - ert_ee_run_server - INFO - server listening on 192.168.159.128:51508
+2024-10-12 22:26:42,385 - websockets.server - ert_ee_run_server - INFO - connection rejected (200 OK)
+2024-10-12 22:26:42,427 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:26:42,446 - websockets.server - ert_ee_run_server - INFO - connection rejected (200 OK)
+2024-10-12 22:26:42,448 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:26:42,488 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:26:42,497 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:26:42,535 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:26:42,752 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:27:07,657 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:30:03,412 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:30:03,476 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:30:03,484 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:30:03,571 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:30:05,808 - websockets.server - ert_ee_run_server - INFO - server closing
+2024-10-12 22:30:05,855 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:30:05,855 - websockets.server - ert_ee_run_server - INFO - server closed
+2024-10-12 22:31:29,986 - websockets.server - ert_ee_run_server - INFO - server listening on 192.168.159.128:49945
+2024-10-12 22:31:30,396 - websockets.server - ert_ee_run_server - INFO - connection rejected (200 OK)
+2024-10-12 22:31:30,439 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:31:30,451 - websockets.server - ert_ee_run_server - INFO - connection rejected (200 OK)
+2024-10-12 22:31:30,458 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:31:30,505 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:31:30,509 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:31:30,547 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:31:30,686 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:31:30,911 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:31:30,920 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:31:30,923 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:31:30,927 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:32:14,443 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:32:14,728 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:32:16,318 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:32:16,523 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:32:18,998 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:32:19,281 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:32:20,962 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:32:21,217 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:33:10,850 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:33:11,107 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:33:14,095 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:33:14,328 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:33:15,921 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:33:16,198 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:33:16,950 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:33:17,228 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:34:25,399 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:25,400 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:27,550 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:29,317 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:29,354 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:29,361 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:34:29,447 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:36,212 - websockets.server - ert_ee_run_server - INFO - server closing
+2024-10-12 22:34:36,260 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:36,260 - websockets.server - ert_ee_run_server - INFO - server closed
+2024-10-12 22:34:41,810 - websockets.server - ert_ee_run_server - INFO - server listening on 192.168.159.128:49945
+2024-10-12 22:34:41,817 - websockets.server - ert_ee_run_server - INFO - connection rejected (200 OK)
+2024-10-12 22:34:41,859 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:41,870 - websockets.server - ert_ee_run_server - INFO - connection rejected (200 OK)
+2024-10-12 22:34:41,876 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:34:41,912 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:41,919 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:34:41,974 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:34:42,118 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:34:42,296 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:34:42,355 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:34:42,366 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:34:42,371 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:35:43,474 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:35:43,730 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:35:45,750 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:35:45,751 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:35:46,028 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:35:46,067 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:35:46,683 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:35:46,959 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:36:52,636 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:36:52,644 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:36:54,573 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:37:01,531 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:37:01,535 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:37:05,814 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:37:11,665 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:37:12,227 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:38:23,360 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:38:23,550 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:38:23,569 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:38:23,595 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:38:23,640 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:38:23,649 - websockets.server - ert_ee_run_server - INFO - connection open
+2024-10-12 22:38:23,735 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:38:26,471 - websockets.server - ert_ee_run_server - INFO - server closing
+2024-10-12 22:38:26,516 - websockets.server - ert_ee_run_server - INFO - connection closed
+2024-10-12 22:38:26,516 - websockets.server - ert_ee_run_server - INFO - server closed

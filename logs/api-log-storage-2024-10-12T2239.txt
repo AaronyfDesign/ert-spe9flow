@@ -1,0 +1,24 @@
+2024-10-12 22:39:30,067 [INFO] uvicorn.error: Started server process [4497]
+2024-10-12 22:39:30,068 [INFO] uvicorn.error: Waiting for application startup.
+2024-10-12 22:39:30,068 [INFO] uvicorn.error: Application startup complete.
+2024-10-12 22:39:31,279 [INFO] uvicorn.access: 127.0.0.1:37070 - "GET /healthcheck HTTP/1.1" 200
+2024-10-12 22:39:31,316 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /experiments HTTP/1.1" 200
+2024-10-12 22:39:31,321 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /experiments/79109716-a820-4315-90b5-852df84acfbb/ensembles HTTP/1.1" 200
+2024-10-12 22:39:31,444 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /ensembles/29bd83aa-4d74-4c1e-8c6d-cf0635c9be00/responses HTTP/1.1" 200
+2024-10-12 22:39:31,489 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /ensembles/29bd83aa-4d74-4c1e-8c6d-cf0635c9be00/parameters HTTP/1.1" 200
+2024-10-12 22:39:31,586 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /ensembles/24dfee7b-350d-4331-8829-1c8f7fd3d20b/responses HTTP/1.1" 200
+2024-10-12 22:39:31,634 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /ensembles/24dfee7b-350d-4331-8829-1c8f7fd3d20b/parameters HTTP/1.1" 200
+2024-10-12 22:39:31,682 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /experiments/54db9b1f-9e4c-4b2e-b632-b88e6f00ac0b/ensembles HTTP/1.1" 200
+2024-10-12 22:39:31,744 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /ensembles/66938b33-e814-4952-a3ed-4fc4311ed520/responses HTTP/1.1" 200
+2024-10-12 22:39:31,790 [INFO] uvicorn.access: 127.0.0.1:37080 - "GET /ensembles/66938b33-e814-4952-a3ed-4fc4311ed520/parameters HTTP/1.1" 200
+2024-10-12 22:39:31,951 [INFO] uvicorn.access: 127.0.0.1:37096 - "GET /experiments HTTP/1.1" 200
+2024-10-12 22:39:31,955 [INFO] uvicorn.access: 127.0.0.1:37096 - "GET /ensembles/29bd83aa-4d74-4c1e-8c6d-cf0635c9be00 HTTP/1.1" 200
+2024-10-12 22:39:32,001 [INFO] uvicorn.access: 127.0.0.1:37096 - "GET /ensembles/24dfee7b-350d-4331-8829-1c8f7fd3d20b HTTP/1.1" 200
+2024-10-12 22:39:32,046 [INFO] uvicorn.access: 127.0.0.1:37096 - "GET /ensembles/66938b33-e814-4952-a3ed-4fc4311ed520 HTTP/1.1" 200
+2024-10-12 22:39:32,397 [INFO] uvicorn.access: 127.0.0.1:37100 - "GET /ensembles/66938b33-e814-4952-a3ed-4fc4311ed520/records/FGOR HTTP/1.1" 200
+2024-10-12 22:39:32,675 [INFO] uvicorn.access: 127.0.0.1:37102 - "GET /ensembles/66938b33-e814-4952-a3ed-4fc4311ed520/records/FGOR/observations HTTP/1.1" 200
+2024-10-12 22:39:32,694 [INFO] uvicorn.access: 127.0.0.1:37112 - "GET /ensembles/66938b33-e814-4952-a3ed-4fc4311ed520/records/FGORH HTTP/1.1" 200
+2024-10-12 22:39:39,246 [INFO] uvicorn.error: Shutting down
+2024-10-12 22:39:39,347 [INFO] uvicorn.error: Waiting for application shutdown.
+2024-10-12 22:39:39,347 [INFO] uvicorn.error: Application shutdown complete.
+2024-10-12 22:39:39,347 [INFO] uvicorn.error: Finished server process [4497]
